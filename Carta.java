@@ -1,3 +1,5 @@
+package pruebas.Prueba0;
+
 
 
 public class Carta {
@@ -11,9 +13,18 @@ public class Carta {
         Acá deben completar el código del constructor de forma que
         se asignen los parámetros a las variables de instancia
         */
+    	
+    	  	this.pinta = pinta;
+ 		this.numero = numero;
+    }
+    
+    public Carta(Numero numero) {
+ 		this.numero = numero;
     }
 
-    public Pinta getPinta() {
+   
+
+	public Pinta getPinta() {
         return this.pinta;
     }
 

@@ -1,6 +1,9 @@
+package pruebas.Prueba0;
+
 import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
+
 
 public class Baraja {
 
@@ -8,10 +11,8 @@ public class Baraja {
     protected List<Carta> cartas;
 
     public Baraja() {
-        cartas = new ArrayList<>();
-        for(Numero numero: Numero.values()) {
-            Carta carta1 = new Corazon(numero);
-            Carta carta2 = new Rombo(numero);
+        cartas = new ArrayList<Carta>();
+
             /*
                 Acá deben completar el constructor de forma de
                 poblar la lista de cartas con todas las cartas de
@@ -20,9 +21,22 @@ public class Baraja {
                 en el ejemplo.
                 NO SE OLVIDEN DE AGREGAR CADA CARTA A LA LISTA
             */
-        }
+            
+        	
+            for(Pinta pin : Pinta.values())
+            {
+                for(Numero num : Numero.values())
+                {
+                    cartas.add(new Carta(pin,num));
+                }
+            }  
+ 
+        
     }
 
+    public List<Carta> getCartas() {
+		return cartas;
+	}
     // acá falta un método :) Ve el método main de la clase Main
 
     public void barajar() {
