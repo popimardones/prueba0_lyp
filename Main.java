@@ -1,6 +1,10 @@
-package pruebas.Prueba0;
 
 import java.util.Scanner;
+
+import cartas.Baraja;
+import cartas.Carta;
+import cartas.Numero;
+import cartas.Pinta;
 
 public class Main {
 

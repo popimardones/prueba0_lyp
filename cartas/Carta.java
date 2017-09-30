@@ -1,6 +1,4 @@
-package pruebas.Prueba0;
-
-
+package cartas;
 
 public class Carta {
 
@@ -18,9 +16,6 @@ public class Carta {
  		this.numero = numero;
     }
     
-    public Carta(Numero numero) {
- 		this.numero = numero;
-    }
 
    
 
@@ -50,3 +45,4 @@ public class Carta {
     }
 
 }
+

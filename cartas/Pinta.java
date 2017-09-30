@@ -1,4 +1,4 @@
-package pruebas.Prueba0;
+package cartas;
 
 public enum Pinta {
     CORAZON, ROMBO, ESPADA, TREBOL
