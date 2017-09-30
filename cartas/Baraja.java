@@ -1,4 +1,4 @@
-package pruebas.Prueba0.cartas;
+package cartas;
 
 import java.util.Collections;
 import java.util.List;
